@@ -31,7 +31,7 @@ int main()
 	stk->Push(3);
 	stk->Push(4);
 
-	cout << stk->Pop() << " " << stk->Pop() << endl;
+	cout << stk->Factorial() << endl;
 	cout << "Stack size: " << stk->m_Size << endl;
 
 	getchar();
